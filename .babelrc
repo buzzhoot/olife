@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "babel-preset-expo",
+    "flow"
+  ],
+  "retainLines": true,
+  "env": {
+    "development": {
+      "plugins": [
+        "transform-react-jsx-source"
+      ]
+    }
+  }
+}
